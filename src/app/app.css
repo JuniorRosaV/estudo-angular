@@ -1,0 +1,20 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+app-card {
+    display: block;
+}
+
+.card-azul ::ng-deep .plano-card {
+    background: linear-gradient(145deg, #dbeafe, #bfdbfe) !important;
+}
+
+.card-azul ::ng-deep .btn-adquirir {
+    background: linear-gradient(90deg, #3b82f6, #1d4ed8) !important;
+}
