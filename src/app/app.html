@@ -3,7 +3,10 @@
     contudo vou customizá-lo para entender como tratar um componente e fazer alterações -->
 <div class="card-container">
     <!-- Card 1 (Padrão) apenas declarei um nome para a classe desse componente, mas nao estilizei no css-->
-    <app-card class="card-rosa"></app-card>
+    <app-card
+        class="card-rosa"
+        descricaoButton="Obter plano Promocional"
+    ></app-card>
 
     <!-- Card 2 (Customizado) aqui eu declarei um nome para a classe desse componente e estilizei no css-->
     <!-- Como eu defini os input do card, entao eu informei os valores para cada um -->
@@ -13,6 +16,6 @@
         descricao="Perfeito para equipes que precisam de recursos ilimitados."
         preco="R$150"
         preco="R$250"
-        badge="Recomendado"
+        descricaoBadge="Recomendado"
     ></app-card>
 </div>
