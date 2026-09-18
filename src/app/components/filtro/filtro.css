@@ -1,0 +1,156 @@
+.search-wrapper {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+
+/* SEARCH */
+
+.search-box {
+  padding: 6px;
+
+  border: 1px solid #dee2e6;
+  border-radius: 18px;
+
+  background: #fff;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.06);
+
+  transition: all 0.25s ease;
+}
+
+
+/* Efeito ao clicar */
+
+.search-box:focus-within {
+  border-color: #0d6efd;
+
+  box-shadow:
+    0 0 0 4px rgba(13, 110, 253, 0.10),
+    0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ÍCONE */
+
+.search-icon {
+  border: 0;
+  background: transparent;
+
+  padding-left: 18px;
+  padding-right: 10px;
+
+  color: #6c757d;
+
+  font-size: 18px;
+}
+
+
+/* INPUT */
+
+.search-input {
+  border: 0;
+
+  min-height: 48px;
+
+  font-size: 15px;
+
+  box-shadow: none !important;
+}
+
+.search-input::placeholder {
+  color: #adb5bd;
+}
+
+
+/* ATALHO */
+
+.search-shortcut {
+  border: 0;
+
+  background: transparent;
+
+  gap: 3px;
+
+  padding-right: 8px;
+}
+
+
+/* TECLAS */
+
+.search-shortcut kbd {
+  min-width: 22px;
+
+  padding: 4px 6px;
+
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+
+  background: #f8f9fa;
+
+  color: #6c757d;
+
+  font-size: 10px;
+
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+/* BOTÃO */
+
+.search-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 0 20px;
+
+  border: 0;
+  border-radius: 13px;
+
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+
+/* HOVER */
+
+.search-button:hover {
+  transform: translateX(2px);
+
+  box-shadow:
+    0 5px 15px rgba(13, 110, 253, 0.25);
+}
+
+
+/* ÍCONE DO BOTÃO */
+
+.search-button i {
+  transition: transform 0.2s ease;
+}
+
+.search-button:hover i {
+  transform: translateX(4px);
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 576px) {
+
+  .search-box {
+    padding: 5px;
+  }
+
+  .search-shortcut {
+    display: none;
+  }
+
+  .search-button {
+    padding: 0 15px;
+  }
+
+}

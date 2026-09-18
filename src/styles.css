@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos globais pertencem aqui, porque o CSS de um componente e encapsulado. */
+body {
+	margin: 0;
+	background-color: #0f172a;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -18,3 +18,8 @@ app-card {
 .card-azul ::ng-deep .btn-adquirir {
     background: linear-gradient(90deg, #3b82f6, #1d4ed8) !important;
 }
+
+.card-rosa ::ng-deep .badge-pop {
+    background: linear-gradient(90deg, #eed896d8, #ffbc2c81) !important;
+    color: #ffa600 !important;
+}
